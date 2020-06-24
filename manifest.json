@@ -1,0 +1,32 @@
+{
+    "name": "English Premier League",
+    "short_name": "EPL",
+    "description": "English Premier League",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00796b",
+    "theme_color": "#00796b",
+    "gcm_sender_id": "586657408159",
+    "icons": [
+        {
+            "src": "/image/football-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/image/football-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/image/football-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/image/football-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
+}
