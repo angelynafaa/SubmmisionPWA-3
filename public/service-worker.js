@@ -24,6 +24,10 @@ workbox.precaching.precacheAndRoute([{
   revision: '7'
 },
 {
+  url: 'pages/standings.html',
+  revision: '7'
+},
+{
   url: 'css/custom.css',
   revision: '7'
 },
@@ -56,7 +60,7 @@ workbox.precaching.precacheAndRoute([{
   revision: '7'
 },
 {
-  url: 'teamdetails.html',
+  url: 'pages/teamdetail.html',
   revision: '7'
 },
 {
@@ -81,7 +85,7 @@ workbox.precaching.precacheAndRoute([{
 }
 ], {
 // Ignore all URL parameters.
-ignoreURLParametersMatching: [/.*/]
+ignoreUrlParametersMatching: [/.*/]
 });
   
 workbox.routing.registerRoute(

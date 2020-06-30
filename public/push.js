@@ -6,7 +6,7 @@ const vapidKeys = {
  
  
 webPush.setVapidDetails(
-    'angelyna826@gmail.com',
+    ' mailto:angelyna826@gmail.com',
     vapidKeys.publicKey,
     vapidKeys.privateKey
 )
